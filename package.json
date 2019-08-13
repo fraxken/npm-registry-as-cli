@@ -1,0 +1,39 @@
+{
+  "name": "npm-registry-as-cli",
+  "version": "1.0.0",
+  "description": "get the JSON payload returned by the NPM registry for a given package",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fraxken/npm-registry-as-cli.git"
+  },
+  "bin": {
+    "npmreg": "./bin/index.js"
+  },
+  "keywords": [
+    "npm",
+    "registry",
+    "as",
+    "cli"
+  ],
+  "author": "GENTILHOMME Thomas <gentilhomme.thomas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fraxken/npm-registry-as-cli/issues"
+  },
+  "homepage": "https://github.com/fraxken/npm-registry-as-cli#readme",
+  "devDependencies": {
+    "@slimio/eslint-config": "^3.0.2",
+    "@types/node": "^12.7.1"
+  },
+  "dependencies": {
+    "httpie": "^1.1.2",
+    "kleur": "^3.0.3",
+    "make-promises-safe": "^5.0.0",
+    "prettyjson": "^1.2.1",
+    "sade": "^1.6.1"
+  }
+}

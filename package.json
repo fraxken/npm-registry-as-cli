@@ -13,6 +13,9 @@
   "bin": {
     "npmreg": "./bin/index.js"
   },
+  "files": [
+      "bin"
+  ],
   "keywords": [
     "npm",
     "registry",

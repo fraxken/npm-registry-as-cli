@@ -14,7 +14,7 @@
     "npmreg": "./bin/index.js"
   },
   "files": [
-      "bin"
+    "bin"
   ],
   "keywords": [
     "npm",
@@ -29,8 +29,8 @@
   },
   "homepage": "https://github.com/fraxken/npm-registry-as-cli#readme",
   "devDependencies": {
-    "@slimio/eslint-config": "^3.0.2",
-    "@types/node": "^12.7.1"
+    "@slimio/eslint-config": "^3.0.3",
+    "@types/node": "^12.7.8"
   },
   "dependencies": {
     "httpie": "^1.1.2",
